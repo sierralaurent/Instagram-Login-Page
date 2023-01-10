@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: Segoe UI;
+}
+.inputs {
+    background-color: rgb(245, 245, 245);
+    padding: 12px 70px;
+    border: solid 1px lightgrey;
+    border-radius: 2px;
+    
+}
+.parent {
+    display: grid;
+    place-items: center;
+    gap: 15px;
+    padding: 10%;
+}
+button {
+    background-color: rgb(104, 170, 245);
+    padding: 12px 140px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+.phone {
+    height: 550px;
+    width: 450px;
+}
+
+@media only screen and (max-width: 828px) { 
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgrey;
+        gap: 10px;
+    }
+    .container > div {
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 15px;
+    }
+    .container-account {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgrey;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .phone {
+        display: none;
+    }
+}
+@media only screen and (min-width: 829px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgrey;
+        gap: 10px;
+    }
+    .container > div {
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 15px;
+    }
+    .container-account {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgrey;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .phone {
+        display: none;
+    }
+    .godmother {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 1640px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgrey;
+        gap: 10px;
+    }
+    .container > div {
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 15px;
+    }
+    .container-account {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightgrey;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .phone {
+        display: flex;
+        flex-direction: row;
+        padding-top: 10%;
+        padding-left: 50px;
+    }
+    .godmother {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
